@@ -1,0 +1,82 @@
+body {
+	background-color: #000000;
+	color: #ffffff;
+	border: 5px solid #000000;
+	width:650px;
+	margin: 0 auto;
+	padding: 30px;
+	font-family: BenchNine;
+	font-size: 20px;
+	text-decoration: none;
+}
+.img1 {
+	position: relative;
+	text-align: center;
+}
+.img1 img {
+	border-radius: 100%;
+	height: 150px;
+}
+hr {
+	border-color: #5E6E70;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	margin: 0;
+}
+h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+h3 {
+	color: #BBBBBB;
+}
+nav {
+	text-align: center;
+	font-size: 16px;
+}
+.pindex {
+	font-size: 18px;
+	font-family: BenchNine;
+	color: #FFFFFF;
+	background: #000000;
+	text-decoration: none;
+	margin: 0 70px 0 70px;
+}
+.pheader {
+	text-align: center;
+	font-size: 16px;
+	font-family: BenchNine;
+	color: #FFFFFF;
+	background: #000000;
+	text-decoration: none;
+}
+.psubheader {
+	text-align: center;
+	font-size: 16px;
+	font-family: BenchNine;
+	color: #FFFFFF;
+	background: #000000;
+	text-decoration: none;
+	margin: -5px 0 0 0;
+}
+.presume {
+	font-size: 18px;
+	font-family: BenchNine;
+	color: #FFFFFF;
+	background: #000000;
+	text-decoration: none;
+	margin: 0 70px 0 0;
+}
+a:visited {
+    color: #00EFE8;
+}
+a:link {
+	color: #00EFE8;
+}
+a:hover {
+	color: #FFFFFF;
+}
