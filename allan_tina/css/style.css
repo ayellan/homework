@@ -38,6 +38,11 @@ nav {
 	text-align: center;
 	font-size: 16px;
 }
+.expheader {
+	color: #60D9F1;
+	font-size: 24px;
+	margin: 0 0 -10px 0;
+}
 .pindex {
 	font-size: 18px;
 	font-family: BenchNine;
