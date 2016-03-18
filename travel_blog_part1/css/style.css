@@ -1,0 +1,108 @@
+* {
+	font-family: 'lato', sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	width:700px;
+}
+
+img {
+	width: 700px;
+}
+
+h1{
+	font-weight: 300;
+}
+
+h1 a {
+	color: #F9CF71;
+	text-decoration: none;
+	font-size: 55px;
+	margin: 0 0 -5px;
+}
+
+h2 {
+	color: black;
+	font-size: 25px;
+	font-weight: 300;
+}
+
+h2 a {
+	text-decoration: none;
+	color: black;
+	font-size: 40px;
+	margin: 0 0 10px 0;
+
+}
+
+h3 {
+	color: rgba(204, 204, 204, 1);
+	font-size: 40px;
+	margin: 50px 0 -10px 0;
+	font-weight: 300;
+}
+
+h4 a{
+	text-decoration: none;
+	color: rgba(250, 208, 105, 255);
+	font-style: bold;
+	font-size: 20px;
+	float: right;
+	margin: 10px 0 30px 0;
+}
+
+hr {
+	width: 700px;
+	color: rgba(204, 204, 204, 0.5);
+}
+
+div p {
+	line-height: 30px;
+	color: rgba(68, 73, 73, .8);
+}
+
+p+a {
+	float: right;
+}
+
+nav {
+	color: rgba(204, 204, 204, 1);
+}
+
+footer {
+	margin: 70px 0 0 0;
+}
+
+.firstletter {
+	float:left;
+	position: relative;
+	top: -10px;
+	padding: 0px 20px 0px 0;
+	margin: -10px;
+	font-size: 110px;
+	font-weight: 300;
+	color: rgba(204, 204, 204, .6);
+}
+
+.topnav a {
+	color: rgba(204, 204, 204, .6);
+	font-size: 20px;
+	font-weight: 300;
+	padding: 0 0 8px 0;
+	margin: 0 20px 0 0;
+	text-decoration: none;
+	border-bottom: 2px solid rgba(204, 204, 204, 0.5);
+	font-style: bold;
+	}
+
+.footernav a {
+	color: rgba(250, 208, 105, 255);
+	margin: 0 5px 0 5px;
+	text-decoration: none;
+}
+
+.trademark {
+	color: rgba(204, 204, 204, .7);
+}
+
