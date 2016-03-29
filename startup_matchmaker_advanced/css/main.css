@@ -1,9 +1,15 @@
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
 /* ==========================================================================
    Global Overrides
   ========================================================================== */
 * {
   box-sizing: border-box;
-/*   border: 1px solid red; */
+  /*border: 1px solid red; */
 }
 
 .clearfix:after {
@@ -32,33 +38,211 @@
 /* Global
    ================================================================ */
 body {
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+  width:1400px;
   /* Set some defaults! font-family, font-size, color, etc. */
 }
 
 /* Text Styles (a, a:hover, a:visited, a:active, p, h1, h2, h3, h4, etc.)
    ================================================================ */
 a {
+  text-decoration: none;
+  color: RGBA(255, 255, 255, 1.00);
   /* Set some default styles for anchors (color, text decoration) */
 }
 
+a:hover {
+  display: inline-block;
+  background-color: RGBA(215, 224, 219, .5);
+}
 /* Layout (columns, floats, etc.)
    ================================================================ */
+
+.tagline {
+  text-align: center;
+  font-size: 25px;
+  background-color: RGBA(215, 224, 219, 1.00);
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-style: italic;
+  margin: 0px;
+  padding: 15px 0;
+}
+
+.banner {
+  width:100%;
+  background-image: url('../images/coworking.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid RGBA(59, 57, 58, .5);
+}
+
+.blurb {
+  display: inline-block;
+  float: right;
+  width: 450px;
+  height: 300px;
+  background-color: RGBA(255, 255, 255, .8);
+  margin: 80px 40px 80px 0;
+  padding: 10px 30px 10px 30px;
+  box-shadow: 2px 2px 2px RGBA(59, 57, 58, 1.00);
+}
+
+.boxalign {
+  text-align: center;
+}
+
+.info, .infomiddle {
+  display: inline-block;
+  width: 420px;
+  margin: 20px 20px 40px 0;
+  padding: 0 40px;
+  text-align: left;
+}
+
+.infomiddle {
+  border-left: 1px solid RGBA(215, 224, 219, 1.00); 
+  border-right: 1px solid RGBA(215, 224, 219, 1.00);
+}
 
 
 /* Header
    ================================================================ */
 
+header {
+  background-color: RGBA(59, 57, 58, 1.00);
+  border-bottom: 5px solid RGBA(250, 215, 53, 1.00);
+}
 
+header h1 {
+  float: left;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  padding-left: 30px;
+}
+
+section h3 {
+  font-size: 25px;
+}
+
+.info h3, .infomiddle h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.blurb h2 {
+  font-size: 25px;
+}
 
 /* Footer
    ================================================================ */
 
-
+footer {
+  background-color: RGBA(59, 57, 58, 1.00);
+  width: 100%;
+  height: 80px;
+  padding: 5px 0 0 30px;
+  color: RGBA(255, 255, 255, 1.00);
+  font-size: 20px;
+  clear:both;
+}
 
 /* Navigation
    ================================================================ */
+header nav {
+  float: right;
+  font-size: 20px;
+  margin-right: 40px;
+}
 
+header nav li {
+  display: inline-block;
+  padding: 0 8px;
+}
 
+header nav strong {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
 
 /* Buttons
    ================================================================ */
+.banner .button {
+  background-color: RGBA(233, 64, 61, 1.00);
+  color: RGBA(255, 255, 255, 1.00);
+  border-radius: 4px;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 20px;
+  text-align: center;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.button {
+  background-color: RGBA(215, 224, 219, 1.00);
+  box-shadow: 2px 2px 2px RGBA(59, 57, 58, 1.00);
+  color: RGBA(59, 57, 58, 1.00);
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+/* Designer Page
+  ===================================================================  */
+.designersection {
+  background-color: RGBA(215, 224, 219, 1.00);
+}
+
+.designerbox {
+  width: 300px;
+  background-color: white;
+  border: 1px solid red;
+  margin: 30px;
+  float: left;
+  }
+
+.designerphoto {
+  display: inline-block;
+  width: 280px;
+  height: 280px;
+  background-color: RGBA(204, 204, 204, 1.00);
+  margin: 10px;
+}
+
+.contact {
+  background-color: RGBA(233, 64, 61, 1.00);
+  box-shadow: 2px 2px 2px RGBA(59, 57, 58, 1.00);
+  color: RGBA(255, 255, 255, 1.00);
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  padding: 10px 30px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+.tagbox {
+  display: inline-block;
+  font-family: 
+  border-radius: 75%;
+  background-color: RGBA(102, 102, 102, 1.00);
+  text-align: center;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 5px;
+  color: white;
+}
+

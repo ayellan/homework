@@ -1,8 +1,17 @@
 You will need to Google:
 
 * background-image
+ background-image: url("paper.gif");
+
+
 * overflow
+
+overflow: visible|hidden|scroll|auto|initial|inherit;
+
 * box-shadow (also an inset box-shadow)
+
+    box-shadow: 10px 10px 5px #888888;
+
 
 Fonts Used: 
 * Source Sans Pro
