@@ -115,3 +115,16 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.allanClass {
+     color: green;
+     background-color: white;
+}
+
+.myUniqueClass {
+     font-size: 20px;
+}
+
+.box3class {
+     font-size: 5px;
+     color: red;
+}
