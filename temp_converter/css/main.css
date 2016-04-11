@@ -35,6 +35,20 @@ button {
   cursor: pointer;
 }
 
+.bluebg {
+  background-color: blue;
+  transition: all 2s ease;
+}
+.orangebg {
+  background-color: orange;
+  transition: all 2s ease;
+}
+.redbg {
+  background-color: red;
+  transition: all 2s ease;
+
+}
+
 /* Error styles
    ================================================================ */
 
